@@ -4,9 +4,8 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function currentLine(katzDeli){
-  let info = [] {
-  var results = [];
-  for(var i=0; i<katzDeli.length; i++){
+  let info = []; 
+    for(let i = 0; i<katzDeli.length; i++){
     results. push(parseInt([i])+1+'. '+katzDeli[i]);
   }
   
