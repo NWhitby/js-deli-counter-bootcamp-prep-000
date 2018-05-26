@@ -23,22 +23,3 @@ function currentLine(katzDeli) {
   return(`The line is currently:` + theLine);
 }
 
-function currentLine(line){
-let info;
-if (line.length === 0){
-line =`The line is currently empty.`
-}
-else{
-outputString = “The line is currently: ”
-for(var i = 0; i < line.length ; i++){
-if (i === 0){
-
-outputString = outputString + (i+1) + “. ” + line[i];
-}
-else{
-outputString = outputString + “, ” + (i+1) + “. ” + line[i];
-}
-}
-}
-return outputString;
-}
