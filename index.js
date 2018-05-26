@@ -24,11 +24,11 @@ function currentLine(katzDeli) {
 }
 
 
-function currentLine(line) {
+function currentLine(line, katzDeli) {
 
- for (let i = 0; i < katzDeli.length; i++) {
+ for (let i = 0; i < katzDelileLine.length; i++) {
    
- line.push(` `+[i+1]+`. `  + katzDeli[i])
+ line.push(` `+[i+1]+`. `  + katzDeliLine[i])
 }
  return(`The line is currently:` + line);
  }
