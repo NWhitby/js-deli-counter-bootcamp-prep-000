@@ -14,5 +14,7 @@ function currentLine(katzDeli){
     info.push(parseInt([i])+1 +'. '+katzDeli[i]);
   }
   
-  return `The line is currently ${}`;
+  return `The line is currently empty`;
 }}
+
+currentLine(["Ada", "Grace"]);
