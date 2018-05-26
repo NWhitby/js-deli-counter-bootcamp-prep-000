@@ -5,8 +5,8 @@ function takeANumber(katzDeliLine, name) {
 
 function currentLine(katzDeli){
   let info = []; 
-    for(let i = 0; i<katzDeli.length; i++){
-    results. push(parseInt([i])+1+'. '+katzDeli[i]);
+    for(let i = 0; i <katzDeli.length; i +=){
+    info.push(parseInt([i]) +1+'. '+katzDeli[i]);
   }
   
   return "The line is currently: "+ results.join(', ')
