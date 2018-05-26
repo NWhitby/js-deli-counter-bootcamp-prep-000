@@ -24,3 +24,20 @@ function currentLine(katzDeli) {
 }
 
 
+function currentLine1(line){
+  if (line.length === 0){
+    return "The line is currently empty."
+  }else{
+    var lineObject = {};
+    for (var i=0; i<line.length; i++){
+      lineObject[i+1] = line[i]
+    }
+    console.log(lineObject)
+  }
+  var item = ''
+  var arr = ["The line is currently: "]
+  for (var key in lineObject){
+    item = key + ": " + lineObject[key]
+    arr.push(item)
+  }
+  return arr;
